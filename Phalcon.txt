@@ -1,0 +1,10 @@
+Namun jika ada dari salah satu service tidak dapat "start" anda dapat melakukan cara berikut :
+
+1. Exit XAMPP
+
+2. Task manager--process--cari proses yang berhubungan dengan SKYPE--End process (jika dalam perangkat anda, anda tidak memasang SKYPE tidak perlu melakukan step 1)
+
+3. start windows--type "xammp"--klik kanan pada XAMPP Control Panel--Properties--buka tab compability--checklist "run as administrator"
+
+4. Coba jalankan Xampp kembali
+
