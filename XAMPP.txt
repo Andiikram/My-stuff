@@ -1,0 +1,44 @@
+TUTORIAL PEMASANGAN PHALCON PADA XAMPP (PHP VERSION 5.6.15) WINDOWS 7
+                      DAN DEVELOPER TOOLS
+=====================================================================
+
+STEP 1
+
+Menginstall Xampp v5.6.1
+
+1. Buka link berikut dan download : https://www.apachefriends.org/index.html 
+2. Setelah XAMPP telah berhasil di download, jalankan setupnya dengan mengikuti prosedur.
+3. Pastikan XAMPP telah dapat berjalan dengan sempurna.
+4. Ketikkan "localhost" pada address bar browser anda.
+
+Step 2
+
+Memasang phalcon pada XAMPP (php 5.6.0 x32/x86)
+
+1. Buka link berikut dan download : https://phalconphp.com/en/download/windows
+2. Buka file .rar yang telah di download.
+3. Copy semua file yang ada dalam rar ke direktori ini : C:\Xampp\php\ext
+4. Lalu pada Xampp, klik config pada service Apache--PHP (php.ini), akan terbuka notepad dan tambahkan "extension=php_phalcon.dll" dalam notepad. Lalu save
+5. Restart Service Apache, lalu buka browser, type "localhost" pada adress bar
+6. Klik PHPInfo, lalu tekan CTRL+F dan type phalcon.
+7. Jika Phalcon telah terpasang pada Xampp anda akan dapat menemukan Phalcon dalam PHPInfo
+
+Step 3
+
+Memasang Developer Tools
+
+1. Buka link berikut dan download : https://github.com/phalcon/phalcon-devtools
+2. Download ZIP
+3. Buka file .rar yang telah di download, Copy "phalcon-devtools-master" ke dalam Disk C:\
+4. Langkah selanjutnya ikuti prosedure berikut, Start--klik kanan "Computer--Properties--Advance System Settings--Tab Advance-- Environtment variables
+5. New--isi variable name "PATH"--isi variable value "C:\Xampp\php"
+6. jalankan CMD lalu type "phalcon"
+7. Selesai
+
+
+=====================================================================================================================================================================
+
+++++++++++++
+Terima Kasih
+++++++++++++
+
